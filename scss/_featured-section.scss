@@ -1,0 +1,33 @@
+.container__featured{
+    // max-width: 320px;
+    padding: $padding-section;
+
+    & article {
+        padding: $padding-section;
+    }
+
+    & article h2{
+        font-size: map-get($fs, normal);
+        margin-bottom: 12px;
+    }
+
+    & article .featured__shop{
+        margin-top: 16px;
+        font-size: map-get($fs, small);
+        text-transform: uppercase;
+    }
+
+    & article p:nth-of-type(1){
+        color: $dark-gray;
+        line-height: 14px;
+    }
+
+    & .featured__shop{
+        letter-spacing: 4px;
+        
+    }
+    
+    & .featured__shop img{
+        margin-left: 34px;
+    }
+}

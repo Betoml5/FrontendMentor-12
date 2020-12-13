@@ -1,0 +1,30 @@
+.container__img-1{
+    width: 100%;
+
+    & picture{
+        width: 100%;
+
+        & img{
+            width: 100%;
+        }
+    }
+}
+
+.container__about{
+    padding: $padding-section;
+
+    & article p {
+        color: $dark-gray;
+        line-height: 14px;
+    }
+
+    & h3{
+        font-size: map-get($fs, x-small );
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+    }
+
+    & article{
+        padding: $padding-section;
+    }
+}

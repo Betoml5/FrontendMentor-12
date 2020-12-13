@@ -1,0 +1,54 @@
+.container__header{
+    position: relative;
+    display:flex;
+
+
+    width: 100%;
+    min-width: 320px;
+
+    padding: 16px;
+
+    background-image:url('../images/desktop-image-hero-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & .container__header-menu h2{
+        font-family: $fm;
+        color:$white;
+        font-size: map-get($fs, big)
+    }
+}
+
+.container__header-next{
+    @include arrows;
+}
+
+.container__header-back{
+    @include arrows;
+}
+
+.container__header-back img{
+    width: 10px;
+}
+
+.container__header-next img {
+    width: 10px;
+}
+
+.container__header-menu{
+   
+    display: flex;
+    height: 30px;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__header-nb-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    bottom: 0px;
+    right: 0px;
+}
