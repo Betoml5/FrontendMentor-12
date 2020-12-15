@@ -27,9 +27,13 @@ html {
   width: 100%;
   min-width: 320px;
   padding: 16px;
-  background-image: url("../images/desktop-image-hero-1.jpg");
+  background-image: url("../images/mobile-image-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container__header nav {
+  display: none;
 }
 
 .container__header .container__header-menu h2 {
@@ -107,7 +111,7 @@ html {
   text-transform: uppercase;
 }
 
-.container__featured article p:nth-of-type(1) {
+.container__featured p:nth-of-type(1) {
   color: #a1a1a1;
   line-height: 14px;
 }
