@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     padding: 16px;
     cursor: pointer;
+    transition: 300ms all ease;
 }
 
 @mixin images {

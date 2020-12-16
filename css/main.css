@@ -30,6 +30,8 @@ html {
   background-image: url("../images/mobile-image-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
 }
 
 .container__header nav {
@@ -47,6 +49,8 @@ html {
   background-repeat: no-repeat;
   padding: 16px;
   cursor: pointer;
+  -webkit-transition: 300ms all ease;
+  transition: 300ms all ease;
 }
 
 .container__header-back {
@@ -54,6 +58,8 @@ html {
   background-repeat: no-repeat;
   padding: 16px;
   cursor: pointer;
+  -webkit-transition: 300ms all ease;
+  transition: 300ms all ease;
 }
 
 .container__header-back img {
