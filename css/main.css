@@ -46,20 +46,30 @@ html {
   background-color: black;
   background-repeat: no-repeat;
   padding: 16px;
+  cursor: pointer;
 }
 
 .container__header-back {
   background-color: black;
   background-repeat: no-repeat;
   padding: 16px;
+  cursor: pointer;
 }
 
 .container__header-back img {
   width: 10px;
 }
 
+.container__header-back:hover {
+  background-color: #454545;
+}
+
 .container__header-next img {
   width: 10px;
+}
+
+.container__header-next:hover {
+  background-color: #454545;
 }
 
 .container__header-menu {

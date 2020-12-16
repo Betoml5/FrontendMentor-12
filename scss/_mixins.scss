@@ -2,9 +2,11 @@
     background-color: $black;
     background-repeat: no-repeat;
     padding: 16px;
+    cursor: pointer;
 }
 
 @mixin images {
     height: 100%;
     width: 100%;
+    
 }

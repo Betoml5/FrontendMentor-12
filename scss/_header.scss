@@ -31,12 +31,21 @@
     @include arrows;
 }
 
+
+
 .container__header-back img{
     width: 10px;
 }
 
+.container__header-back:hover{
+    background-color: $very-dark-gray;
+}
 .container__header-next img {
     width: 10px;
+}
+
+.container__header-next:hover{
+    background-color: $very-dark-gray;
 }
 
 .container__header-menu{
